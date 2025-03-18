@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container */
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Input Fields */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Input Focus Effect */
+input:focus, textarea:focus {
+    border-color: #28a745;
+    outline: none;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.3);
+}
+
+/* Textarea Styling */
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #28a745;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background: #218838;
+}
+
+/* Disabled Button */
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+/* Response Message */
+#responseMessage {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* Table */
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+/* Buttons */
+.btn-add, .btn-submit {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-add {
+    background: #17a2b8;
+    color: white;
+}
+
+.btn-submit {
+    background: #28a745;
+    color: white;
+}
+
+.btn-remove {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
